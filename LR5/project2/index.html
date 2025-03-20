@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма отправки данных</title>
+    <script>
+        function updateTime() {
+            document.getElementById('current_time').value = new Date().toLocaleString();
+        }
+
+        window.onload = updateTime; // Вызываем функцию при загрузке страницы
+    </script>
+</head>
+<body>
+    <h1>Отправка данных</h1>
+    <form action="/submit" method="POST">
+        <label for="moodle_login">Логин в системе Moodle:</label><br>
+        <input type="text" id="moodle_login" name="moodle_login" required><br><br>
+        <label for="current_time">Текущее время:</label><br>
+        <input type="text" id="current_time" name="current_time" readonly><br><br>
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
