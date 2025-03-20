@@ -15,6 +15,10 @@
 
 [Код первой части задания](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/T1.1.py)
 
+![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/1.1.png)
+
+![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/1.1-1.png)
+
 Код реализует простой HTTP-сервер, который:
 
 - Слушает на всех доступных IP-адресах на порту 8080.
@@ -23,6 +27,12 @@
 - Использует pytz для корректной работы с часовыми поясами.
 
 [Код второй части задания](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/T1.2.py)
+
+![Задание 1.2](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/1.2.png)
+
+![Задание 1.2](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/1.2-1.png)
+
+![Задание 1.2](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/1.2-2.png)
 
 Этот код представляет собой простое веб-приложение на Python, использующее фреймворк Flask и выполняет следующие задачи:
 
