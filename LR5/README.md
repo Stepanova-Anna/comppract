@@ -30,8 +30,6 @@
 
 ![Задание 1.2](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/1.2.png)
 
-![Задание 1.2](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/1.2-1.png)
-
 ![Задание 1.2](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/1.2-2.png)
 
 Этот код представляет собой простое веб-приложение на Python, использующее фреймворк Flask и выполняет следующие задачи:
@@ -78,6 +76,12 @@
 
 [Содержимое проекта](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/project/.py)
 
+![Задание 2.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/2.1.png)
+
+![Задание 2.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/2.1-1.png)
+
+![Задание 2.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/2.1-2.png)
+
 Этот код представляет собой веб-приложение на Python, построенное с использованием фреймворка Flask. Приложение предоставляет форму для ввода данных (логина и текущего времени), сохраняет эти данные в JSON-файле и отображает сообщение об успешном сохранении.
 
 ---
@@ -96,5 +100,13 @@
 
 
 [Содержимое проекта](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/project2/.py)
+
+
+![Задание 2.2](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/2.2.png)
+
+![Задание 2.2](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/2.2-1.png)
+
+![Задание 2.2](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/2.2-2.png)
+
 
 Этот код создает веб-приложение на Python с использованием фреймворка Flask. Приложение принимает данные (логин Moodle и текущее время) через форму, сохраняет их в JSON-файл и отображает подтверждение сохранения данных.
