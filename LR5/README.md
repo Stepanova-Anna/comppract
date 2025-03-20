@@ -13,9 +13,9 @@
 
 **Результат:**
 
-[Код первой части задания]
+[Код первой части задания](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/T1.1.py)
 
-[Код второй части задания]
+[Код второй части задания](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/T1.2.py)
 
 
 
