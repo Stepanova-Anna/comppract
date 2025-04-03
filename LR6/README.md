@@ -17,13 +17,25 @@
 >Реализация асинхронной отправки данных, получение результата без перезагрузки страницы по отдельному маршруту, сохранение "состояния" (приложение помнит >какой последний файл загружался и выводит данные по нему).
 >Вывод и отображение самого изображения на страницу с формой или другую страницу как thumbnail.
 
+---
+
 **Результат:**
 
 [Код](https://github.com/Stepanova-Anna/comppract/blob/main/LR6/code.py)
 
+[Ссылка на replit борд](https://replit.com/@stepanna/checkicheck#main.py)
+
+---
+
+**Борд**
+
 ![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR6/лр6.png)
 
 ![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR6/лр6-1.png)
+
+---
+
+**Post запрос в Insomnia**
 
 ![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR6/картинка-запрос.png)
 
