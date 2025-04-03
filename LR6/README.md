@@ -19,9 +19,11 @@
 
 **Результат:**
 
-[Код](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/T1.1.py)
+[Код](https://github.com/Stepanova-Anna/comppract/blob/main/LR6/code.py)
 
-![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/1.1.png)
+![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR6/лр6.png)
 
-![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR5/1.1-1.png)
+![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR6/лр6-1.png)
+
+![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR6/картинка-запрос.png)
 
