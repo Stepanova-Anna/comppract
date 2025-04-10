@@ -8,23 +8,45 @@
 
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR4-1/1.png)
 
+TestSuite
+
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR4-1/2.png)
+
+TestCase
 
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR4-1/3.png)
 
+Создание TestStep
+Получение кода страны по названию
+
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR4-1/4.png)
+
+Получение названия страны по коду
 
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR4-1/5.png)
 
+Получение столицы
+
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR4-1/6.png)
+
+Получение флага
 
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR4-1/7.png)
 
+Получение валюты по коду
+
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR4-1/8.png)
+
+Получение стран, использующие валюту 
 
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR4-1/9.png)
 
+Добавление Assertion – проверка работы step
+Проверка HTTP запроса с кодом 200 (добавлено для всех)
+
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR4-1/10.png)
+
+Результат и поиск запрашиваемой строки в Contains 
 
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR4-1/11.png)
 
@@ -37,5 +59,7 @@
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR4-1/15.png)
 
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR4-1/16.png)
+
+Итог
 
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR4-1/17.png)
