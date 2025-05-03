@@ -29,3 +29,14 @@
 
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR10/done.png)
 
+**C усложнением**
+
+По маршруту ("/login") 
+
+![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR10/author2.png)
+
+При вводе корректных параметров по маршруту ("/makeimage") будет выведено изображение
+
+![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR10/gen.png)
+
+![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR10/done2.png)
