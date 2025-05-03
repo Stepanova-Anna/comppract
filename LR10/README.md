@@ -48,3 +48,5 @@
 Маршрут ("/makeimage") проверяем через Insomnia
 
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR10/insomnia1.png)
+
+При неверных размерах изображения (width <= 0 или height <= 0) возвращается сообщение "Invalid image size".
