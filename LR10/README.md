@@ -17,9 +17,15 @@
 ### Решение 
 **Без усложнения**
 
+По маршруту ("/login") 
+
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR10/author.png)
 
+Меню для ввода данных по маршруту ("/")
+
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR10/imagegen.png)
+
+При вводе корректных параметров по маршруту ("/makeimage") будет выведено изображение
 
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR10/done.png)
 
