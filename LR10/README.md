@@ -17,6 +17,8 @@
 ### Решение 
 **Без усложнения**
 
+[Содержимое проекта](https://github.com/Stepanova-Anna/comppract/blob/main/LR10//.py)
+
 По маршруту ("/login") 
 
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR10/author.png)
