@@ -17,3 +17,9 @@
 ### Решение 
 **Без усложнения**
 
+![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR10/author.png)
+
+![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR10/imagegen.png)
+
+![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR10/done.png)
+
