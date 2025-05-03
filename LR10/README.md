@@ -40,3 +40,7 @@
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR10/gen.png)
 
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR10/done2.png)
+
+Маршрут ("/makeimage") проверяем через Insomnia
+
+![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR10/insomnia1.png)
