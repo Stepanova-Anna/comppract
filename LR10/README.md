@@ -17,7 +17,7 @@
 ### Решение 
 **Без усложнения**
 
-[Содержимое проекта](https://github.com/Stepanova-Anna/comppract/blob/main/LR10//.py)
+[Содержимое проекта без усложнения](https://github.com/Stepanova-Anna/comppract/tree/main/LR10/Simple)
 
 По маршруту ("/login") 
 
@@ -32,6 +32,8 @@
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR10/done.png)
 
 **C усложнением**
+
+[Содержимое проекта c усложнением](https://github.com/Stepanova-Anna/comppract/tree/main/LR10/Dif)
 
 По маршруту ("/login") 
 
