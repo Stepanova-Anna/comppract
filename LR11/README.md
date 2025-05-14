@@ -11,3 +11,7 @@
 5. Вывод и отображение исходного текста на страницу с формой (без перезагрузки страницы, асинхронно).
 
 ### Решение
+
+[Ссылка на борд в replit](https://35a7dc61-8248-49cb-ae19-e9b0e6ffead4-00-314ild94szqgw.sisko.replit.dev/)
+
+![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR11/page.png)
