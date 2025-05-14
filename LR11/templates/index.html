@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Расшифровка</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
+<body>
+    <h1>Форма расшифровки</h1>
+    <p>Загрузите приватный ключ и зашифрованное сообщение.</p>
+
+    <!-- Основная форма для загрузки файлов -->
+    <form id="decryptionForm" enctype="multipart/form-data" novalidate>
+        <label for="key">Приватный ключ:</label><br>
+        <input type="file" id="key" name="key" required><br><br>
+
+        <label for="secret">Зашифрованное сообщение:</label><br>
+        <input type="file" id="secret" name="secret" required><br><br>
+
+        <!-- Кнопка отправки формы -->
+        <button type="button" onclick="decryptMessage()">Расшифровать</button>
+    </form>
+
+    <!-- Результат дешифровки -->
+    <h2>Результат:</h2>
+    <p id="decryptedText"></p>
+
+    <!-- Встраивание необходимых скриптов -->
+    <script>
+        async function decryptMessage() {
+            const form = document.getElementById('decryptionForm');
+            const formData = new FormData(form);
+
+            try {
+                const response = await fetch('/decypher', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.ok) {
+                    const decryptedText = await response.text();
+                    document.getElementById('decryptedText').textContent = decryptedText;
+                } else {
+                    const errorData = await response.json();
+                    document.getElementById('decryptedText').textContent = `Ошибка: ${errorData.error}`;
+                }
+            } catch (error) {
+                document.getElementById('decryptedText').textContent = `Ошибка сети: ${error}`;
+            }
+        }
+    </script>
+
+    <!-- Дополнительные внешние зависимости -->
+    <script src="/static/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+
+</html>
