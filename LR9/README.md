@@ -17,14 +17,48 @@
 
 ---
 
-**Результат:**
+## Результат:
 
-[Код](https://github.com/Stepanova-Anna/comppract/blob/main/LR6/code.py)
+**Подготовка окружения. Создание бакета в Yandex Cloud**
 
-[Ссылка на replit борд](https://replit.com/@stepanna/checkicheck#main.py)
+![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR9/1.png)
 
----
+![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR9/2.png)
 
-**Борд**
+**Создание сервисного аккаунта**
 
-![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR6/лр6.png)
+Роль: storage.editor (для полного доступа к хранилищу)
+
+![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR9/3.png)
+
+Также создадим ключ безопасности
+
+![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR9/4.png)
+
+**Настройка файлов ~/.aws/credentials и ~/.aws/config для работы с Yandex Object Storage через boto3:**
+
+В файле `~/.aws/credentials` указываем идентификатор ключа сервисного аккаунта и секретный ключ сервисного аккаунта
+
+Далее с помощью boto3 был написан код:
+
+[main.py](https://github.com/Stepanova-Anna/comppract/blob/main/LR9/main.py)
+
+После запуска кода а бакете был создан файл
+
+![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR9/5.png)
+
+![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR9/6.png)
+
+Допишем строки удаления файла:
+
+```
+            if delete_file(object_name):
+                print("\nФинальное состояние бакета:")
+                list_files()
+```
+
+После запуска кода, файл в бакете был удален
+
+![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR9/7.png)
+
+![Задание 1.1](https://github.com/Stepanova-Anna/comppract/blob/main/LR9/8.png)
