@@ -112,3 +112,16 @@ $$ LANGUAGE plpgsql;
 
 ---
 
+[Код программы main.py](https://35a7dc61-8248-49cb-ae19-e9b0e6ffead4-00-314ild94szqgw.sisko.replit.dev/)
+
+![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR16/1.png)
+
+![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR16/2.png)
+
+![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR16/3.png)
+
+![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR16/4.png)
+
+![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR16/5.png)
+
+![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR16/6.png)
