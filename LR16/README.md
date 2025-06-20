@@ -10,19 +10,16 @@
 Для создания таблиц были написаны следующие SQL-запросы:
 
 ```
--- Таблица книг
 CREATE TABLE books (
   id SERIAL PRIMARY KEY,
   name TEXT NOT NULL
 );
 
--- Таблица филиалов
 CREATE TABLE branches (
   id SERIAL PRIMARY KEY,
   name TEXT NOT NULL
 );
 
--- Таблица запасов
 CREATE TABLE stock (
   book_id INT REFERENCES books(id),
   branch_id INT REFERENCES branches(id),
@@ -30,7 +27,6 @@ CREATE TABLE stock (
   PRIMARY KEY (book_id, branch_id)
 );
 
--- Таблица перемещений
 CREATE TABLE movements (
   id SERIAL PRIMARY KEY,
   book_id INT REFERENCES books(id),
@@ -42,7 +38,6 @@ CREATE TABLE movements (
 ```
 
 ```
--- Функция для проверки и блокировки запасов
 CREATE OR REPLACE FUNCTION check_and_lock_stock(
   p_book_id INT,
   p_branch_id INT
@@ -56,7 +51,6 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
--- Функция для обновления запасов
 CREATE OR REPLACE FUNCTION update_stock(
   p_book_id INT,
   p_branch_id INT,
@@ -70,7 +64,6 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
--- Упрощённая функция для перемещения книг
 CREATE OR REPLACE FUNCTION move_books_safe(
   p_book_id INT,
   p_from_branch_id INT,
@@ -80,7 +73,7 @@ CREATE OR REPLACE FUNCTION move_books_safe(
 DECLARE
   current_quantity INT;
 BEGIN
-  -- Проверка и блокировка
+
   SELECT quantity INTO current_quantity
   FROM stock 
   WHERE book_id = p_book_id AND branch_id = p_from_branch_id
@@ -90,7 +83,6 @@ BEGIN
     RETURN json_build_object('error', 'Недостаточно книг в филиале-отправителе');
   END IF;
   
-  -- Обновление запасов
   UPDATE stock SET quantity = quantity - p_quantity
   WHERE book_id = p_book_id AND branch_id = p_from_branch_id;
   
@@ -99,7 +91,6 @@ BEGIN
   ON CONFLICT (book_id, branch_id)
   DO UPDATE SET quantity = stock.quantity + EXCLUDED.quantity;
   
-  -- Логирование
   INSERT INTO movements (book_id, quantity, from_branch_id, to_branch_id)
   VALUES (p_book_id, p_quantity, p_from_branch_id, p_to_branch_id);
   
@@ -114,6 +105,7 @@ $$ LANGUAGE plpgsql;
 
 [Код программы main.py](https://35a7dc61-8248-49cb-ae19-e9b0e6ffead4-00-314ild94szqgw.sisko.replit.dev/)
 
+
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR16/1.png)
 
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR16/2.png)
@@ -125,3 +117,5 @@ $$ LANGUAGE plpgsql;
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR16/5.png)
 
 ![Задание 1](https://github.com/Stepanova-Anna/comppract/blob/main/LR16/6.png)
+
+
