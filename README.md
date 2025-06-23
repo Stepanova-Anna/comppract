@@ -15,3 +15,4 @@
 ## :link: [Лабораторная работа № 15](https://colab.research.google.com/drive/1A2LBjC2Z1EaN7Wwo6KQDb64t1Y1TmtjQ#scrollTo=Q73yrXlADt3h)
 ## :link: [Лабораторная работа № 16](https://github.com/Stepanova-Anna/comppract/tree/main/LR16#readme)
 ## :link: [Лабораторная работа № 17](https://github.com/Stepanova-Anna/comppract/tree/main/LR17#readme)
+## :link: [Лабораторная работа № 19](https://github.com/Stepanova-Anna/comppract/blob/main/LR19/README.md)
