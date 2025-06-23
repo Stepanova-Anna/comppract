@@ -8,7 +8,7 @@
 ## :link: [Тема 5](https://github.com/Stepanova-Anna/comppract/tree/main/LR-WebAssembly#readme)
 ## :link: [Лабораторная работа № 5](https://github.com/Stepanova-Anna/comppract/tree/main/LR5#readme)
 ## :link: [Лабораторная работа № 6](https://github.com/Stepanova-Anna/comppract/tree/main/LR6#readme)
-## :link: [Лабораторная работа № 7](https://github.com/Stepanova-Anna/comppract/tree/main/LR6#readme)
+## :link: [Лабораторная работа № 7](https://github.com/Stepanova-Anna/comppract/tree/main/Telegram_bot)
 ## :link: [Лабораторная работа № 10](https://github.com/Stepanova-Anna/comppract/tree/main/LR10#readme)
 ## :link: [Лабораторная работа № 11](https://github.com/Stepanova-Anna/comppract/tree/main/LR11#readme)
 ## :link: [Лабораторная работа № 14](https://colab.research.google.com/drive/1d3_FMVBWB3OZTq--wDrY4DqaSca91sVs)
