@@ -1,6 +1,8 @@
 # Компьютерный практикум
 **Степанова Анна Андреевна, 1 гр 2 п гр ИВТ 2 курс**
 
+## :link: [Тема 1 (исходники)](https://github.com/Stepanova-Anna/web-hugo)
+## :link: [Тема 1 (сайт)](https://github.com/Stepanova-Anna/web-hugo)
 ## :link: [Тема 2](https://github.com/Stepanova-Anna/comppract/tree/main/Theme2#readme)
 ## :link: [Тема 3](https://github.com/Stepanova-Anna/comppract/tree/main/Theme3#readme)
 ## :link: [Лабораторная работа № 4.1](https://github.com/Stepanova-Anna/comppract/tree/main/LR4-1#readme)
