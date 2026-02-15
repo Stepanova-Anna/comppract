@@ -1,4 +1,4 @@
-(Адрес Cloud Function)[https://functions.yandexcloud.net/d4ej1d0b2d64v4gj1jh9]
+[Адрес Cloud Function](https://functions.yandexcloud.net/d4ej1d0b2d64v4gj1jh9)
 
 <img width="958" height="775" alt="image" src="https://github.com/user-attachments/assets/08c3b70d-8185-44a5-bc6d-8fc5f53b8270" />
 
